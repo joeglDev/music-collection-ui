@@ -1,10 +1,16 @@
 import {FlexContainer} from "../components";
+import {useBulkSummaryStatistics} from "../api";
 
-export const SummaryBanner = () => (
+export const SummaryBanner = () => {
+    const {data} = useBulkSummaryStatistics(); //todo type the response
+
+    return (
         <FlexContainer>
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
-            <div>4</div>
+            <div>{data.numberOfArtists}</div>
+            <div>{data.numberOfAlbums}</div>
+            <div>{data.numberOfGenres}</div>
+            <div>{data.modalGenre}</div>
+            <div>{data.modalArtist}</div>
         </FlexContainer>
-    );
+    )
+};
