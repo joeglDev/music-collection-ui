@@ -1,4 +1,5 @@
 import {FlexContainer} from "../components";
+import {Tile} from './tile';
 import {useBulkSummaryStatistics} from "../api";
 
 export const SummaryBanner = () => {
@@ -6,11 +7,11 @@ export const SummaryBanner = () => {
 
     return (
         <FlexContainer>
-            <div>{data.numberOfArtists}</div>
-            <div>{data.numberOfAlbums}</div>
-            <div>{data.numberOfGenres}</div>
-            <div>{data.modalGenre}</div>
-            <div>{data.modalArtist}</div>
+            <Tile label="Number of artists:" statistic={data?.numberOfArtists}/>
+            <Tile label="Number of albums:" statistic={data?.numberOfAlbums}/>
+            <Tile label="Number of genres:" statistic={data?.numberOfGenres}/>
+            <Tile label="Most frequent artist:" statistic={data?.modalArtist}/>
+            <Tile label="Most frequent genre:" statistic={data?.modalGenre}/>
         </FlexContainer>
     )
 };

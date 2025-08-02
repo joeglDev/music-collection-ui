@@ -1,7 +1,7 @@
 export interface BulkSummaryStatisticsResponse {
-    NumberOfArtists: number;
-    NumberOfAlbums: number;
-    NumberOfGenres: number;
-    ModalArtist: string;
-    ModalGenre: string;
+    numberOfArtists: number;
+    numberOfAlbums: number;
+    numberOfGenres: number;
+    modalArtist: string;
+    modalGenre: string;
 }
