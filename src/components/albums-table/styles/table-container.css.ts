@@ -1,6 +1,6 @@
 import { style } from '@vanilla-extract/css';
 
 export const tableContainerStyle = style({
-    height: '65vh',
+    height: '55vh',
     marginTop: '5vh',
 });

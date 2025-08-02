@@ -1,9 +1,11 @@
 import {FlexContainer} from "../index.ts";
 import {Tile} from './tile';
 import {useBulkSummaryStatistics} from "../../api";
+import {useOwnerContext} from "../../../owner-context";
 
 export const SummaryBanner = () => {
-    const {data} = useBulkSummaryStatistics();
+    const {owner} = useOwnerContext();
+    const {data} = useBulkSummaryStatistics(owner);
 
     return (
             <FlexContainer>
