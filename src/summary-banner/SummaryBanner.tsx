@@ -2,7 +2,7 @@ import {FlexContainer} from "../components";
 import {useBulkSummaryStatistics} from "../api";
 
 export const SummaryBanner = () => {
-    const {data} = useBulkSummaryStatistics(); //todo type the response
+    const {data} = useBulkSummaryStatistics();
 
     return (
         <FlexContainer>
