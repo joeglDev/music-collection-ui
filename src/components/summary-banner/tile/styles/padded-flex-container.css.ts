@@ -1,5 +1,5 @@
 import { style } from '@vanilla-extract/css';
-import {flexContainerStyle} from "../../../components/flex-container/FlexContainer.css.ts";
+import {flexContainerStyle} from "../../../flex-container/FlexContainer.css.ts";
 
 export const paddedFlexContainerStyle = style([flexContainerStyle, {
     flexDirection: 'column',

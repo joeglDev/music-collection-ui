@@ -1,5 +1,5 @@
 import './App.css'
-import {SummaryBanner} from "./summary-banner";
+import {SummaryBanner} from "./components";
 import {QueryClient, QueryClientProvider} from "@tanstack/react-query";
 
 function App() {

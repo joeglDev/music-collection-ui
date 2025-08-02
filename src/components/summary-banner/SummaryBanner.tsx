@@ -1,6 +1,6 @@
-import {FlexContainer} from "../components";
+import {FlexContainer} from "../index.ts";
 import {Tile} from './tile';
-import {useBulkSummaryStatistics} from "../api";
+import {useBulkSummaryStatistics} from "../../api";
 
 export const SummaryBanner = () => {
     const {data} = useBulkSummaryStatistics();
