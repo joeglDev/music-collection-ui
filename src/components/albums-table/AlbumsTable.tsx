@@ -3,6 +3,7 @@ import { AllCommunityModule, ModuleRegistry } from 'ag-grid-community';
 import { AgGridReact } from 'ag-grid-react';
 import {tableContainerStyle} from "./styles";
 import {getColumnDefinitions} from "./get-column-definitions.ts";
+import {useOwnerContext} from "../../../owner-context";
 
 export const AlbumsTable = () => {
     // Register all Community features
