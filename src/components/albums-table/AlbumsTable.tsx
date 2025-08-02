@@ -1,5 +1,5 @@
 import { useAlbumRows} from "../../api";
-import { AllCommunityModule, ModuleRegistry , type ColDef} from 'ag-grid-community';
+import { AllCommunityModule, ModuleRegistry } from 'ag-grid-community';
 import { AgGridReact } from 'ag-grid-react';
 import {tableContainerStyle} from "./styles";
 import {getColumnDefinitions} from "./get-column-definitions.ts";
