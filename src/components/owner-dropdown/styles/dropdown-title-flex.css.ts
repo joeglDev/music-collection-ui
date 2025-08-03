@@ -1,8 +1,8 @@
-import {style} from '@vanilla-extract/css';
+import { style } from "@vanilla-extract/css";
 
 export const dropdownTitleFlexStyle = style({
-    display: 'flex',
-    flexDirection: 'row',
-    gap: 0,
-    margin: 'auto'
-})
+  display: "flex",
+  flexDirection: "row",
+  gap: 0,
+  margin: "auto",
+});

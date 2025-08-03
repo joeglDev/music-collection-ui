@@ -1,7 +1,7 @@
-import {style} from '@vanilla-extract/css';
+import { style } from "@vanilla-extract/css";
 
 export const dropdownTitleTextStyle = style({
-    fontWeight: 750,
-    fontSize: '2rem',
-    textAlign: 'center',
-})
+  fontWeight: 750,
+  fontSize: "2rem",
+  textAlign: "center",
+});

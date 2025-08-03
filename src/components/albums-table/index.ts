@@ -1,1 +1,1 @@
-export * from './AlbumsTable.tsx';
+export * from "./AlbumsTable.tsx";
