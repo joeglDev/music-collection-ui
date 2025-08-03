@@ -1,6 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
 import type { BulkSummaryStatisticsResponse } from "./bulk-summary-statistics.types.ts";
-import { Owners } from "../../../owner-context";
+import { Owners } from "../../owner-context";
 
 export const useBulkSummaryStatistics = (ownerParam: Owners) =>
   useQuery({

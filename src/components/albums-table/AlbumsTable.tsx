@@ -1,9 +1,9 @@
-import { useAlbumRows } from "../../api";
+import { useAlbumRows } from "../../lib";
 import { AllCommunityModule, ModuleRegistry } from "ag-grid-community";
 import { AgGridReact } from "ag-grid-react";
 import { tableContainerStyle } from "./styles";
 import { getColumnDefinitions } from "./get-column-definitions.ts";
-import { Owners, useOwnerContext } from "../../../owner-context";
+import { Owners, useOwnerContext } from "../../lib";
 import { useMemo } from "react";
 
 export const AlbumsTable = () => {

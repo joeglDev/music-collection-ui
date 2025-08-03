@@ -1,7 +1,7 @@
 import { FlexContainer } from "../index.ts";
 import { Tile } from "./tile";
-import { useBulkSummaryStatistics } from "../../api";
-import { useOwnerContext } from "../../../owner-context";
+import { useBulkSummaryStatistics } from "../../lib";
+import { useOwnerContext } from "../../lib";
 
 export const SummaryBanner = () => {
   const { owner } = useOwnerContext();

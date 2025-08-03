@@ -2,7 +2,7 @@ import "./App.css";
 import { SummaryBanner } from "./components";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { AlbumsTable } from "./components/albums-table";
-import { OwnerContextProvider } from "../owner-context";
+import { OwnerContextProvider } from "./lib";
 import { OwnerDropDown } from "./components/owner-dropdown";
 
 function App() {

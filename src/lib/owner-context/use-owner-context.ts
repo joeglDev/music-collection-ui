@@ -1,5 +1,5 @@
 import { createContext, useContext } from "react";
-import { type OwnerContextValue, Owners } from "./owner-context.types";
+import { type OwnerContextValue, Owners } from "./owner-context.types.ts";
 
 const defaultValue: OwnerContextValue = {
   owner: Owners.All,

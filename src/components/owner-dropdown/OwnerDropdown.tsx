@@ -1,4 +1,4 @@
-import { Owners, useOwnerContext } from "../../../owner-context";
+import { Owners, useOwnerContext } from "../../lib";
 import {
   dropdownSelectStyle,
   dropdownTitleFlexStyle,
